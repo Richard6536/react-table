@@ -22,12 +22,12 @@ export const AppRoute = () => {
             <div className="container mt-5">
                 <Switch>
 
-                    <Route path="/table" component={ TableView } />
+                    
                     <Route path="/crearUsuario" component={ CrearUsuario }/>
 
                     <Route path="/create" component={ Create }/>
                     <Route path="/edit/:id" component={ Edit }/>
-                    <Route extact plath="/" component={ CrudList } />
+                    <Route extact plath="/" component={ TableView } />
 
                     <Redirect to="/" />
 
