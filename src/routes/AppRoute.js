@@ -21,7 +21,6 @@ export const AppRoute = () => {
         <Navbar />
             <div className="container mt-5">
                 <Switch>
-
                     
                     <Route path="/crearUsuario" component={ CrearUsuario }/>
 
